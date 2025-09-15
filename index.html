@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Obstacle Dodger</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body  style="background-image: url(/game-console-6603120_640.jpg); background-repeat: no-repeat; background-size: cover;"  onload="startGame()">
+   <div class="title-container">
+    <h1 style="color: aliceblue;">Obstacle Dodger</h1>
+    <div  class="image">
+    
+        <img src="/excited.gif" alt="Excited GIF">
+    </div>
+   
+</div>
+
+
+<div class="">
+    
+    <div class="controls">
+        <button id="restartBtn">Restart</button>
+        <br />
+        <button id="upBtn">UP</button>
+        <br />
+        <button id="leftBtn">LEFT</button>
+        <button id="rightBtn">RIGHT</button>
+        <br />
+        <button id="downBtn">DOWN</button>
+    </div>
+</div>
+<!-- Background music during game -->
+<audio id="backgroundMusic" loop>
+  <source src="kids-game-gaming-background-music-295075.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
+
+<!-- Music or sound for game over -->
+<audio id="gameOverMusic">
+  <source src="game-over.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
+
+
+
+    <script src="game.js"></script>
+</body>
+</html>

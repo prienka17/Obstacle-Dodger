@@ -1,0 +1,40 @@
+.title-container {
+    display: flex;
+    align-items: center;          /* Vertically center items */
+    justify-content: center;      /* Center the whole row */
+    gap: 20px;                    /* Space between text and image */
+    margin-top: 20px;
+    flex-wrap: wrap;              /* Optional: allow wrap on small screens */
+}
+
+.title-container h1 {
+    font-size: 70px;
+    margin: 0;
+    text-align: center;
+}
+
+.title-container .image img {
+    max-height: 80px;             /* Adjust to match text size */
+    height: auto;
+}
+
+
+
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #4191db; /* match gray background */
+    display: block;
+    margin: 20px auto;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.controls button {
+    padding: 8px 15px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
